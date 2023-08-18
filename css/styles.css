@@ -21,7 +21,7 @@ header{
 .header-nav {
     color: #1BACC6;
     text-decoration:none;
-    margin: 10px;
+    margin: 40px;
 }
 
 .header-nav:hover{
@@ -36,7 +36,7 @@ header{
 }
 
 body{
-    background-color: #f3eff1;
+    background-color: white;
     justify-content:center;
     display:flex;
     flex-direction:column;
@@ -82,17 +82,65 @@ h1{
     margin:20px;
 }
 
+.frontpage-banner{
+    background-color:#26272e;
+    color:#f3eff1;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-top:30px;
+}
+
+.frontpage-banner p{
+    margin:20px 40px;
+}
+
+.frontpage-examples{
+    background-color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 30px 0;
+
+}
+
+.frontpage-examples img{
+    height:300px;
+    width:300px;
+    border-radius:5px;
+    margin: 30px 30px 20px 30px;
+
+}
+
+.thumbnails{
+    height:400px;
+    width:400px;
+    background-color: #1BACC6;
+    color:#f3eff1;
+    font-size:28px;
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+    border-radius: 5px;
+
+}
+
+
 footer{
     display:flex;
     justify-content: space-between;
     align-items:center;
     background-color:#26272e;
     height:100px;
+
 }
 .footer-nav a{
     color: #f3eff1;
     text-decoration:none;
-    margin: 10px;
+    margin: 40px;
 
 }
 
