@@ -1,4 +1,75 @@
-.logo {
- height: 100px;
- width:auto;
+*{
+    margin:0;
+    padding:0;
+    
 }
+
+header{
+    height:90px;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+.header-nav {
+    color: #1BACC6;
+    text-decoration:none;
+    margin: 10px;
+}
+
+.logo {
+ height: 75px;
+ width:auto;
+ justify-content: left;
+ margin:20px;
+}
+
+body{
+    background-color: #f3eff1;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+h1{
+    color:#1bacc6;
+    align-self: center;
+    margin: 10px;
+    font-size:45px;
+}
+
+.frontpage-container1{
+    display:flex;
+    justify-content: center;
+
+}
+
+.welcome-image{
+    height:400px;
+    width:auto;
+}
+
+.welcome-container{
+    height:400px;
+    width:400px;
+    background-color:#1BACC6;
+    color: #f3eff1;
+    font-size:26px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.welcome-container h2{
+    margin:10px;
+}
+
+.welcome-container p{
+    margin:20px;
+}
+
