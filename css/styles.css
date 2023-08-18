@@ -60,22 +60,20 @@ h1{
     justify-content: center;
     align-items:center;
     height:580px;
-    margin: 40px 0px;
-
-    
+ 
 
 }
 
 .welcome-image{
-    height:500px;
+    height:580px;
     width:auto;
     margin:40px 0px;
    
 }
 
 .welcome-container{
-    height:500px;
-    width:500px;
+    height:580px;
+    width:388px;
     background-color:#1BACC6;
     color: #f3eff1;
     font-size:23px;
@@ -123,6 +121,7 @@ h1{
     justify-content: center;
     align-items: center;
     text-align:center;
+    margin-top:40px;
 
 }
 
@@ -153,7 +152,7 @@ h1{
 
 .thumbnails{
     height:400px;
-    width:400px;
+    width:350px;
     background-color: #1BACC6;
     color:#f3eff1;
     font-size:28px;
@@ -162,6 +161,11 @@ h1{
     align-items:center; 
     border-radius: 5px;
 
+}
+
+.thumbnails:hover{
+    background-color:#26272e;
+    color: white;
 }
 
 
