@@ -22,7 +22,8 @@
 </header>
 <body>
     <h1>Contact Us</h1>
-    <section>
+    <section class="contact-us">
+    <section class="contact-us-left">
         <div class="contact-info">
             <p>Clinton Glass Company</p>
             <p> 9007 Middlebrook Pike</p>
@@ -30,8 +31,8 @@
         </div>
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3230.0549387977217!2d-84.08382048961387!3d35.9456259723884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885c2f9d1e142efb%3A0xc35909bc6ed57092!2sClinton%20Glass%20Company!5e0!3m2!1sen!2sus!4v1692398916967!5m2!1sen!2sus" 
-        width="600" 
-        height="450" 
+        width="300" 
+        height="300" 
         style="border:0;" 
         allowfullscreen="" 
         loading="lazy" 
@@ -48,27 +49,30 @@
             <p>Fax: 865-247-0408 </p>
         </div>
 
-        <a href="https://www.google.com/maps/d/u/0/viewer?mid=1iy2JP7MSCYG27ziqLZ6crL1sqwI&ll=35.97640662776238%2C-84.37686564999998&z=8">
+        <a href="https://www.google.com/maps/d/u/0/viewer?mid=1iy2JP7MSCYG27ziqLZ6crL1sqwI&ll=35.97640662776238%2C-84.37686564999998&z=8" class="map">
         <img src="./images/map.png" alt="Map of Showers done by clinton glass company in east tennesse">
         </a>
 
     </section>
 
-    <section class="contact-us">
+    <section class="contact-us-right">
+        <form action="#" method="GET">
         <section class="form-row">
             <label for="first-name">First Name:</label>
             <input 
             type="text" 
             name="first-name" 
-            id="first-name">
-        </section>
+            id="first-name"
+            style="width: 30%;"
+            required>
            
-        <section class="form-row">
             <label for="last-name">Last Name:</label>
             <input 
             type="text" 
             name="last-name" 
-            id="last-name">
+            id="last-name"
+            style="width: 30%;"
+            required>
         </section>
     
         <section class="form-row">
@@ -76,7 +80,9 @@
             <input 
             type="text" 
             name="address" 
-            id="address">
+            id="address"
+            style="width: 83%;"
+            >
         </section>
 
         <section class="form-row">
@@ -84,23 +90,26 @@
             <input 
             type="text" 
             name="city" 
-            id="city">
-        </section>
+            id="city"
+            style="width: 280px;">
+       
 
-        <section class="form-row">
+      
             <label for="state">State:</label>
             <input 
             type="text" 
             name="state" 
-            id="state">
-        </section>
+            id="state"
+            style="width: 80px;">
 
-        <section class="form-row">
+
+      
             <label for="zip-code">Zip:</label>
             <input 
             type="text" 
             name="zip-code" 
-            id="zip-code">
+            id="zip-code"
+            style="width: 100px;">
         </section>
 
         <section class="form-row">
@@ -108,17 +117,82 @@
             <input 
             type="tel" 
             name="phone" 
-            id="phone">
-        </section>
+            id="phone"
+            style="width: 35%;">
+      
 
-        <section class="form-row">
+        
             <label for="email">Email:</label>
             <input 
             type="email" 
             name="email" 
-            id="email">
+            id="email"
+            required
+            style="width: 35%;">
         </section>
+
+        <section class="form-row">
+            <h3>I'm contacting you because</h3>
+            <input 
+            type="checkbox" 
+            name="call-me" 
+            id="call-me">
+            <label for="call-me">I would like you to call me and provide an estimate over the phone</label>
+            </section>
+        
+        <section class="form-row">
+            <input 
+            type="checkbox" 
+            name="email-sketch" 
+            id="email-sketch">
+            <label for="email-sketch">I would like to email Clinton Glass a sketch of my shower or other project</label>
+            </section>
+        
+        <section class="form-row">
+            <input 
+            type="checkbox" 
+            name="quote" 
+            id="quote">
+            <label for="quote">I would like Clinton Glass to come to my house for a free in-home quote</label>
+        </section>
+
+       
+
+        <section class="form-row">
+            <h3>My shower project can be best described as:</h3>
+            <input 
+            type="checkbox" 
+            name="stage1" 
+            id="stage1">
+            <label for="stage1">I'm in the dreaming stage, and would like some rough numbers</label>
+            </section>
+            <section class="form-row">
+            <input 
+            type="checkbox" 
+            name="stage2" 
+            id="stage2">
+            <label for="stage2">We've started the project and need a quote</label>
+        </section>
+            <section class="form-row">
+            <input 
+            type="checkbox" 
+            name="stage3" 
+            id="stage3">
+            <label for="stage3">The tile's in! How soon can you get here?</label>
+        </section>
+
+        <section class="form-row">
+            <label for="more"><h3>Anything else you want to share with us ?</h3></label>
+            </section>
+        
+        <section class="textbox">
+           <textarea name="more" id="more" cols="80" rows="10"></textarea>
+        </section>
+
+        <a href="./contact.html"><div class="button"><strong>Submit</strong></div></a>
+    </form>
     </section>
+</section>
 </body>
 <footer>
     <section class="footer-nav">

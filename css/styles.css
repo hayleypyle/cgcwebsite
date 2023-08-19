@@ -8,6 +8,16 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+strong{
+    text-decoration: none;
+    color:#1BACC6;
+}
+
+strong:hover{
+    color:white;
+}
+
 header{
     height:90px;
     background-color: white;
@@ -44,8 +54,8 @@ body{
     justify-content:center;
     display:flex;
     flex-direction:column;
-    background-image: url(../images/background2.jpg);
-    background-attachment: fixed;
+    /* background-image: url(../images/background2.jpg);
+    background-attachment: fixed; */
 }
 
 h1{
@@ -83,6 +93,7 @@ h1{
     align-items: center;
     text-align:center;
     margin:40px 0px;
+   
 }
 
 .welcome-container h2{
@@ -102,7 +113,9 @@ h1{
     display:flex;
     justify-content: center;
     align-items: center;
-   margin-top:10%
+    margin-top:10%;
+    
+
  
 }
 
@@ -110,6 +123,7 @@ h1{
     border:white;
     background-color:#26272e;
     color:white;
+    
 }
 
 .frontpage-banner{
@@ -193,4 +207,63 @@ footer{
     width:400px;
     color: #f3eff1;
 
+}
+
+.contact-us{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.contact-us img{
+    height:300px;
+    width:300px;
+    margin:20px;
+    
+}
+
+.contact-us-left{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    background-color:#1BACC6;
+    color:white;
+    height: 100%;
+    width:30%;
+}
+
+.contact-us-right{
+    width:60%;
+    background-color:white;
+    color:#1BACC6;
+}
+
+form{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+input[type=text], input[type=tel], input[type=email], textarea, [type=submit]{
+    width:30%;
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-size:0.7rem;
+   
+}
+.contact-info{
+   margin:20px;
+}
+
+iframe{
+    margin:20px;
+}
+
+.form-row{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+textarea{
+    margin-left:20px;
 }
