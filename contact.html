@@ -21,7 +21,7 @@
     </nav>
 </header>
 <body>
-    <h1>Contact Us</h1>
+    <div class="main-banner"><h1>Contact Us</h1></div>
     <section class="contact-us">
     <section class="contact-us-left">
         <div class="contact-info">
@@ -61,18 +61,20 @@
             <label for="first-name">First Name:</label>
             <input 
             type="text" 
-            name="first-name" 
             id="first-name"
+            name="first-name" 
+            required
             style="width: 30%;"
-            required>
+            />
            
             <label for="last-name">Last Name:</label>
             <input 
             type="text" 
             name="last-name" 
             id="last-name"
+            required
             style="width: 30%;"
-            required>
+            />
         </section>
     
         <section class="form-row">
@@ -82,7 +84,7 @@
             name="address" 
             id="address"
             style="width: 83%;"
-            >
+            />
         </section>
 
         <section class="form-row">
@@ -91,7 +93,7 @@
             type="text" 
             name="city" 
             id="city"
-            style="width: 280px;">
+            style="width: 280px;"/>
        
 
       
@@ -100,7 +102,7 @@
             type="text" 
             name="state" 
             id="state"
-            style="width: 80px;">
+            style="width: 80px;"/>
 
 
       
@@ -109,7 +111,7 @@
             type="text" 
             name="zip-code" 
             id="zip-code"
-            style="width: 100px;">
+            style="width: 100px;"/>
         </section>
 
         <section class="form-row">
@@ -118,7 +120,7 @@
             type="tel" 
             name="phone" 
             id="phone"
-            style="width: 35%;">
+            style="width: 35%;"/>
       
 
         
@@ -128,68 +130,69 @@
             name="email" 
             id="email"
             required
-            style="width: 35%;">
+            style="width: 35%;"/>
         </section>
 
-        <section class="form-row">
+        <section class="form-checks">
             <h3>I'm contacting you because</h3>
             <input 
             type="checkbox" 
             name="call-me" 
-            id="call-me">
+            id="call-me"/>
             <label for="call-me">I would like you to call me and provide an estimate over the phone</label>
             </section>
         
-        <section class="form-row">
+        <section class="form-checks">
             <input 
             type="checkbox" 
             name="email-sketch" 
-            id="email-sketch">
+            id="email-sketch"/>
             <label for="email-sketch">I would like to email Clinton Glass a sketch of my shower or other project</label>
             </section>
         
-        <section class="form-row">
+        <section class="form-checks">
             <input 
             type="checkbox" 
             name="quote" 
-            id="quote">
+            id="quote"/>
             <label for="quote">I would like Clinton Glass to come to my house for a free in-home quote</label>
         </section>
 
        
 
-        <section class="form-row">
-            <h3>My shower project can be best described as:</h3>
+        <section class="form-checks">
+            <h3>My shower or other project can be best described as</h3>
             <input 
             type="checkbox" 
             name="stage1" 
-            id="stage1">
+            id="stage1"/>
             <label for="stage1">I'm in the dreaming stage, and would like some rough numbers</label>
             </section>
-            <section class="form-row">
+            <section class="form-checks">
             <input 
             type="checkbox" 
             name="stage2" 
-            id="stage2">
+            id="stage2"/>
             <label for="stage2">We've started the project and need a quote</label>
         </section>
-            <section class="form-row">
+            <section class="form-checks">
             <input 
             type="checkbox" 
             name="stage3" 
-            id="stage3">
+            id="stage3"/>
             <label for="stage3">The tile's in! How soon can you get here?</label>
         </section>
 
-        <section class="form-row">
+        <section class="form-checks">
             <label for="more"><h3>Anything else you want to share with us ?</h3></label>
             </section>
         
         <section class="textbox">
-           <textarea name="more" id="more" cols="80" rows="10"></textarea>
+        <textarea name="more" id="more" cols="100" rows="10"></textarea>
         </section>
-
-        <a href="./contact.html"><div class="button"><strong>Submit</strong></div></a>
+        <section class="textbox">
+            <div class="contact-page-button"><a href="./contact.html"><strong>Submit</strong></a></div>
+        </section>
     </form>
     </section>
 </section>

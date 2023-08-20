@@ -54,8 +54,8 @@ body{
     justify-content:center;
     display:flex;
     flex-direction:column;
-    /* background-image: url(../images/background2.jpg);
-    background-attachment: fixed; */
+    background-image: url(../images/background2.jpg);
+    background-attachment: fixed;
 }
 
 h1{
@@ -104,7 +104,11 @@ h1{
     margin: 0 10%;
 }
 
-.button{
+.welcome-container a{
+    text-decoration: none;
+}
+
+.front-page-button{
     background-color:white;
     color:#1BACC6;
     height:50px;
@@ -114,12 +118,9 @@ h1{
     justify-content: center;
     align-items: center;
     margin-top:10%;
-    
-
- 
 }
 
-.button:hover{
+.front-page-button:hover{
     border:white;
     background-color:#26272e;
     color:white;
@@ -215,6 +216,16 @@ footer{
     justify-content:center;
 }
 
+.main-banner{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:30px 5% 30px 5%;
+    background-color:white;
+    height:100px;
+    width:90%;
+}
+
 .contact-us img{
     height:300px;
     width:300px;
@@ -225,6 +236,7 @@ footer{
 .contact-us-left{
     display:flex;
     justify-content:center;
+    align-items:center;
     flex-direction:column;
     background-color:#1BACC6;
     color:white;
@@ -238,18 +250,37 @@ footer{
     color:#1BACC6;
 }
 
+.contact-us-right a{
+    text-decoration: none;
+    width:70%;
+}
 form{
     width:100%;
     display:flex;
     flex-direction:column;
 }
 
-input[type=text], input[type=tel], input[type=email], textarea, [type=submit]{
+input[type=text], input[type=tel], input[type=email], [type=submit]{
     width:30%;
-    margin: 10px auto;
+    margin: 10px 0 10px 0;
     padding: 12px 20px;
-    font-size:0.7rem;
+    font-size: 1rem;
    
+}
+.textbox{
+    margin: 10px 20px 0px 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+textarea{
+    width:100%;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    font-size: 0.8rem;
+ 
 }
 .contact-info{
    margin:20px;
@@ -260,10 +291,53 @@ iframe{
 }
 
 .form-row{
-    margin-left:20px;
-    margin-top:20px;
+    margin: 10px 20px 0px 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
 }
 
-textarea{
-    margin-left:20px;
+.form-row label{
+    margin: 0px 5px;
 }
+
+.form-checks{
+    margin-left:20px;
+    margin-top:10px;
+    display:block;
+    flex-direction: column;
+
+}
+
+.form-checks h3{
+    margin-bottom:10px;
+}
+
+.contact-page-button{
+    background-color:#1BACC6;
+    color:white;
+    border-radius:5px;
+    margin:auto;
+    height:40px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-page-button strong{
+    color:white;
+}
+.contact-page-button:hover{
+    border:white;
+    background-color:#26272e;
+    color: white;
+}
+
+.contact-page-button a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+    
