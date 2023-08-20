@@ -278,6 +278,30 @@ input[type=text], input[type=tel], input[type=email], [type=submit]{
     align-items:center;
 }
 
+.textbox input{
+    background-color:#1BACC6;
+    color:white;
+    border-radius:5px;
+    margin:auto;
+    height:50px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    border:none;
+}
+
+.textbox a{
+    width:100%;
+}
+
+.textbox input:hover{
+    border:white;
+    background-color:#26272e;
+    color: white;
+}
+
 textarea{
     width:100%;
     margin-bottom: 10px;
@@ -326,31 +350,3 @@ iframe{
 .form-checks h3{
     margin:2.5% 0 2.5% 0;
 }
-
-.contact-page-button{
-    background-color:#1BACC6;
-    color:white;
-    border-radius:5px;
-    margin:auto;
-    height:40px;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.contact-page-button strong{
-    color:white;
-}
-.contact-page-button:hover{
-    border:white;
-    background-color:#26272e;
-    color: white;
-}
-
-.contact-page-button a{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-    
