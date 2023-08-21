@@ -350,3 +350,29 @@ iframe{
 .form-checks h3{
     margin:2.5% 0 2.5% 0;
 }
+
+.about-us-container1{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.about-us-container1 img, .about-us-container2 img{
+    height:300px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.about-us-container2{
+    height:30%;
+    background-color: #26272e;
+    color:#f3eff1;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    font-size:1.3rem;
+
+}
