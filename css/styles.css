@@ -178,6 +178,15 @@ h1{
 
 }
 
+.thumbnails a{
+    text-decoration:none;
+    color:#f3eff1;
+    font-size:28px;
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+}
+
 .thumbnails:hover{
     background-color:#26272e;
     color: white;
