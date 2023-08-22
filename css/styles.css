@@ -537,3 +537,41 @@ li{
     color:white;
 
 }
+
+.main-gallery{
+    width:90%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin: 0 5% 30px 5%;
+  
+}
+
+.galleryheader{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #f3eff1;
+    background-color: #26272e;
+    width: 100%;
+    height:50px;
+    border-radius: 15px 15px 0 0;
+}
+
+img.imghover:hover{
+    filter:brightness(110%);
+}
+.main-gallery img{
+    width:auto;
+    height: 450px;
+    border-radius: 0 0 15px 15px;
+}
+
+.gallery-thumbnail{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
