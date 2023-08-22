@@ -490,18 +490,44 @@ li{
     align-items: center;
 }
 
+.process-container2{
+    width:90%;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 5% 30px 5%;
+}
+
+.estimate{
+    height:300px;
+    width:100%;
+    background-color: #f3eff1;
+    color: #1BACC6;
+    font-size:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.estimate h2{
+    margin-top:5%;
+}
 
 .process-button{
-    background-color:white;
-    color:#1BACC6;
-    height:50px;
-    width:200px;
+    background-color:#1BACC6;
+    color:#f3eff1;
+    height:100px;
+    width:500px;
     border-radius:5px;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:10%;
     text-decoration: none;
+    font-size:1.5rem;
+    margin: 5% 0 5% 0;
 }
 
 
