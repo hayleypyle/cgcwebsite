@@ -59,7 +59,7 @@ h1{
     color:#1BACC6;
     align-self: center;
     margin: 25px;
-    font-size:45px;
+    font-size:3vw;
 }
 
 .frontpage-container1{
@@ -97,10 +97,12 @@ h1{
 
 .welcome-container h2{
     margin:5% 10%;
+
 }
 
 .welcome-container p{
     margin: 0 10%;
+   
 }
 
 .welcome-container a{
@@ -137,6 +139,7 @@ h1{
     text-align:center;
     margin-top:40px;
 
+
 }
 
 .frontpage-banner p{
@@ -150,6 +153,7 @@ h1{
 
 .frontpage-examples{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items:center;
     margin:30px 5% 30px 5%;
@@ -365,6 +369,7 @@ iframe{
     align-items:center;
     margin: 0 5% 30px 5%;
 
+
 }
 
 .about-us-container1 img{
@@ -378,13 +383,13 @@ iframe{
     border-radius:50%;
     border-style:solid;
     border-color: #1BACC6;
-    border-width: 10px;
+    border-width: 0.7vw;
 }
 
 
 .about-us-container2{
     margin-top:30px;
-    height: 350px;
+    height: 25vw;
     background-color: #26272e;
     color:#f3eff1;
     display:flex;
@@ -398,8 +403,15 @@ iframe{
     margin: 5%;
 }
 
+.about-us-left img{
+    width:100%;
+    height:auto;
+    max-width:18vw;
+}
+
 .about-us-right{
     margin: 5% 5% 5% 0;
+    font-size:2vw;
 }
 
 .services{
