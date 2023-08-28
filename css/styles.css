@@ -142,18 +142,26 @@ header{
         display:flex;
         justify-content:center;
         background-color: #1BACC6;
-        width:90%;
+        width:100%;
+        height: auto;
+
      
     }
 
-    .footer-nav{
-        display:none;
+    .footer-nav {
+        display:none;}
+
+    /* .footer p{
+        font-size:1vw;
+    
     }
 
+    .footer {
+        display:flex;
+        justify-content: center;
+    } */
+
 }
-
-
-
 
 
 .tagline{
@@ -170,8 +178,7 @@ body{
 h1{
     color:#1BACC6;
     align-self: center;
-    margin: 25px;
-    font-size:3vw;
+    font-size:4vw;
 }
 
 .frontpage-container1{
@@ -187,17 +194,17 @@ h1{
 
 .welcome-image{
     height:580px;
-    width:auto;
+    width: 30%;
     margin:40px 0px;
    
 }
 
 .welcome-container{
     height:580px;
-    width:50%;
+    width:100%;
     background-color:#1BACC6;
     color: #f3eff1;
-    font-size:23px;
+    font-size: 3vh;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -328,9 +335,9 @@ footer{
     display:flex;
     flex-direction:row;
     justify-content: right;
-    margin-right:20px;
-    font-size:14px;
-    width:400px;
+    padding-right:10%;
+    font-size:1vw;
+    width:80%;
     color: #f3eff1;
 
 }
