@@ -16,18 +16,25 @@
    
     <nav>
         <div class="navbar">
-        <a href="./about.html" class="header-nav">About Us</a>
-        <a href="./process.html" class="header-nav">Our Process</a>
-        <div class="dropdown">
+            <ul>
+        <li><a href="./about.html" class="header-nav">About Us</a></li>
+        <li><a href="./process.html" class="header-nav">Our Process</a></li>
+        <li><div class="dropdown">
             <p class="dropbtn">Gallery <i class="fa fa-caret-down"></i></p>
         <div class="dropdown-content">
             <a href="./galleries/shower-glass.html">Showers</a>
             <a href="./galleries/mirrors.html">Mirrors</a>
             <a href="./galleries/architectural-glass.html">Architectural Glass</a>
-        </div>
+       </div></li>
 
         </div>
-        <a href="./contact.html" class="header-nav">Contact Us</a>
+        <li><a href="./contact.html" class="header-nav">Contact Us</a></li>
+    </ul>
+    </div>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="icon">
+            <i class="fa-solid fa-bars fa-2xl" style="color: #1BACC6"></i>
+        </div>
     </div>
     </nav>
     
