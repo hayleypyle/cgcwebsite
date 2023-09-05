@@ -12,35 +12,28 @@
     <script src="https://kit.fontawesome.com/7c01d16357.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <a href="./index.html"><img src="./images/CGC-Logo.jpg" alt="Clinton Glass Company Logo" class="logo"></a>
-    <div class="icon">
-        <i class="fa-solid fa-bars fa-2xl" style="color: #1BACC6"></i>
-    </div>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html"><img src="./images/CGC-Logo.jpg" alt="Clinton Glass Company Logo" class="logo"></a>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./process.html">Our Process</a>
+            <div class="dropdown">
+              <button class="dropbtn">Galleries 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./galleries/shower-glass.html">Shower Glass</a>
+                <a href="./galleries/mirrors.html">Mirrors</a>
+                <a href="./galleries/architectural-glass.html">Architectural Glass</a>
+              </div>
+            </div> 
+            <a href="./contact.html">Contact Us</a>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    </header>
 
-
-    <nav>
-        <div class="navbar">
-        <a href="./about.html" class="header-nav">About Us</a>
-        <a href="./process.html" class="header-nav">Our Process</a>
-        <div class="dropdown">
-            <p class="dropbtn">Gallery <i class="fa fa-caret-down"></i></p>
-        <div class="dropdown-content">
-            <a href="./galleries/shower-glass.html">Showers</a>
-            <a href="./galleries/mirrors.html">Mirrors</a>
-            <a href="./galleries/architectural-glass.html">Architectural Glass</a>
-        </div>
-
-        </div>
-        <a href="./contact.html" class="header-nav">Contact Us</a>
-        
-
-      
-    </div>
-    </a>
-    </nav>
-
-</header>
 
 <section>
         <div class="main-banner"><h1>The Beautiful Shower People</h1></div>
@@ -110,5 +103,6 @@
     <p>info@clintonglasscompany.com</p>
     </section>
 </footer>
+<script src="navbar.js"></script>
 </body>
 </html>

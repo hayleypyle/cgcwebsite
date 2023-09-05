@@ -11,14 +11,15 @@
 </head>
 <body>
 <header>
-    <a href="./index.html"><img src="./images/CGC-Logo.jpg" alt="Clinton Glass Company Logo" class="logo"></a>
+    <!-- <a href="./index.html"><img src="./images/CGC-Logo.jpg" alt="Clinton Glass Company Logo" class="logo"></a>
 
    
     <nav>
         <div class="navbar">
-        <a href="./about.html" class="header-nav">About Us</a>
-        <a href="./process.html" class="header-nav">Our Process</a>
-        <div class="dropdown">
+    <ul>
+       <li> <a href="./about.html" class="header-nav">About Us</a></li>
+        <li><a href="./process.html" class="header-nav">Our Process</a></li>
+        <li><div class="dropdown">
             <p class="dropbtn">Gallery <i class="fa fa-caret-down"></i></p>
         <div class="dropdown-content">
             <a href="./galleries/shower-glass.html">Showers</a>
@@ -27,9 +28,55 @@
         </div>
 
         </div>
-        <a href="./contact.html" class="header-nav">Contact Us</a>
+    </li>
+       <li> <a href="./contact.html" class="header-nav">Contact Us</a></li>
+    </ul>
     </div>
-    </nav>
+    <div class="icon">
+        <i class="fa-solid fa-bars fa-2xl" style="color: #1BACC6"></i>
+    </div>
+
+    </nav> -->
+
+
+    <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="./index.html"><img src="./images/CGC-Logo.jpg" alt="Clinton Glass Company Logo" class="logo"></a>
+          </div>
+          <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./process.html">Our Process</a>
+              </li>
+              <li>
+                <a href="./gallery.html">Galleries</a>
+                <ul class="nav-dropdown">
+                  <li>
+                    <a href="./galleries/shower-glass.html">Shower Glass</a>
+                  </li>
+                  <li>
+                    <a href="./galleries/mirrors.html">Mirrors</a>
+                  </li>
+                  <li>
+                    <a href="./galleries/architectural-glass.html">Architectural Glass</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="./contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
     
 </header>
 
@@ -82,5 +129,6 @@
     <p>info@clintonglasscompany.com</p>
     </section>
 </footer>
+<script src="navbar.js"></script>
 </body>
 </html>
