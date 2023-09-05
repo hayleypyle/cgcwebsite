@@ -105,17 +105,11 @@ header{
  margin:20px;
 }
 
-.hamburger-icon {
+.icon {
     display:none;
-    margin: auto 0;
-    width:35px;
-    height: 3px;
-    background-color:white;
-    
+    width:300px;
 
 }
-
-
 @media (max-width:1000px){
     .header-nav {display:none;
     }
