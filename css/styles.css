@@ -138,12 +138,20 @@ html{
     /* .main-banner{
         font-size:3vw;
     } */
-    
+
     .welcome-container p{
     
         font-size:2vw;
     
        
+    }
+
+    .frontpage-banner{
+        height:30vw;
+    }
+
+    .frontpage-banner h2{
+        font-size:3.5vw;
     }
 
     .services-box h2 {
@@ -180,6 +188,9 @@ html{
   .process-button{
     height:100px;
     width:500px;
+  }
+  .frontpage-banner p{
+    font-size:2vw;
   }
 }
 
@@ -246,6 +257,19 @@ html{
   .estimate h2{
     font-size:20px;
   }
+
+  .frontpage-banner{
+    height:130vw;
+  }
+
+  .frontpage-banner p {
+    font-size:4.5vw;
+  }
+
+
+.frontpage-banner h2{
+    font-size:4.5vw;
+}
 
   }
   
@@ -528,7 +552,7 @@ h1{
 .frontpage-banner{
     background-color:#26272e;
     color:#f3eff1;
-    height:30vw;
+    /* height:30vw; */
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -540,12 +564,12 @@ h1{
 
 .frontpage-banner p{
     margin:1% 5%;
-    font-size:2vw;
+    /* font-size:2vw; */
 }
-
+/* 
 .frontpage-banner h2{
     font-size:3.5vw;
-}
+} */
 
 .frontpage-examples{
     display:flex;
