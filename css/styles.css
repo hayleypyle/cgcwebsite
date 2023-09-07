@@ -132,12 +132,12 @@ html{
   @media screen and (min-width: 1001px) {
     .welcome-container h2{
 
-        font-size:3vw;
+        font-size:4vw;
     
     }
-    /* .main-banner{
-        font-size:3vw;
-    } */
+    .main-banner{
+        text-align: center;
+    }
 
     .welcome-container p{
     
@@ -433,6 +433,11 @@ html{
         display:flex;
         justify-content:right;
     }
+
+    h1{
+        font-size:7vw;
+    }
+
     .frontpage-container1 img {
         display:none;
     }
@@ -447,10 +452,11 @@ html{
         width:90%;
 
     }
-/* 
+
     .main-banner{
-        font-size:2vw;
-    } */
+        text-align: center;
+    }
+
     .welcome-container {
         display:flex;
         justify-content:center;
@@ -504,7 +510,7 @@ body{
 h1{
     color:#1BACC6;
     align-self: center;
-    font-size:4vw;
+    /* font-size:4vw; */
 }
 
 .frontpage-container1{
