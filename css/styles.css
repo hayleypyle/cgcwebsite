@@ -135,6 +135,9 @@ html{
         font-size:3vw;
     
     }
+    /* .main-banner{
+        font-size:3vw;
+    } */
     
     .welcome-container p{
     
@@ -149,6 +152,10 @@ html{
     
     .services-box li{
         font-size:30px;
+    }
+
+    .about-us-right{
+        font-size:2vw;
     }
 
     .footer-info p{
@@ -390,7 +397,10 @@ html{
         width:90%;
 
     }
-
+/* 
+    .main-banner{
+        font-size:2vw;
+    } */
     .welcome-container {
         display:flex;
         justify-content:center;
@@ -399,6 +409,14 @@ html{
         height: auto;
 
      
+    }
+
+    .about-us-left{
+        display:none;
+    }
+
+    .about-us-right {
+        font-size:3vw;
     }
 
     .footer-nav {
@@ -790,7 +808,7 @@ iframe{
 
 .about-us-right{
     margin: 5% 5% 5% 0;
-    font-size:2vw;
+    /* font-size:2vw; */
 }
 
 .services{
