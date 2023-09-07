@@ -185,6 +185,9 @@ html{
     font-size:20px;
   }
 
+  .process-box{
+    margin: 30px;
+}
   .process-button{
     height:100px;
     width:500px;
@@ -246,7 +249,7 @@ html{
   }
 
   .process-box p{
-    font-size:14px;
+    font-size:1rem;
   }
 
   .process-button{
@@ -269,6 +272,10 @@ html{
 
 .frontpage-banner h2{
     font-size:4.5vw;
+}
+
+.process-box{
+    margin:0;
 }
 
   }
@@ -925,7 +932,7 @@ li{
     height: 250px;
     width: 400px;
     width: 400px;
-    margin:30px 30px;
+    /* margin:30px 30px; */
   
   
     border-style:solid;
