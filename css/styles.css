@@ -128,7 +128,21 @@ html{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+  @media screen and (min-width: 1001px) {
+    .welcome-container h2{
+
+        font-size:3vw;
+    
+    }
+    
+    .welcome-container p{
+    
+        font-size:2vw;
+    
+       
+    }
+  }
+
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 1000px) {
     .topnav a:not(:first-of-type) {
@@ -153,6 +167,19 @@ html{
         position: absolute;
         left:0;
         top:0;
+    }
+
+    .welcome-container h2{
+    
+        font-size:26px;
+    
+    }
+    
+    .welcome-container p{
+
+        font-size:20px;
+    
+       
     }
   }
   
@@ -383,11 +410,13 @@ h1{
 
 .welcome-container h2{
     margin:5% 10%;
+   
 
 }
 
 .welcome-container p{
     margin: 0 10%;
+ 
    
 }
 
