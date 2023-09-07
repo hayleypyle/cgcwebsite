@@ -204,6 +204,40 @@ html{
   .frontpage-banner p{
     font-size:2vw;
   }
+  .contact-us-left{
+    height: 100%;
+    width:30%;
+  }
+
+  .contact-us-right{
+    width:60%;
+  }
+
+
+  .contact-info-top{
+    width:80%;
+    margin:40px 20px 20px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:1.2rem;
+}
+.form-row{
+    display:flex;
+    flex-direction: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+input[type=text], input[type=tel], input[type=email], [type=submit]{
+    /* width:100%; */
+    margin: 10px 0 10px 0;
+    padding: 12px 20px;
+    font-size: 1rem;
+   
+}
+
 }
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -295,6 +329,33 @@ html{
 
 .about-us-container1{
     margin: 0;
+}
+
+.contact-us-left{
+    width:100vw;
+    height:auto;
+}
+
+.contact-us-right{
+    width:100%;
+}
+
+.form-row{
+    display:flex;
+    flex-direction:column;
+
+}
+
+input[type=text], input[type=tel], input[type=email], [type=submit]{
+    /* width:500px; */
+    margin: 5px 0 5px 0;
+    padding: 12px 20px;
+    font-size: 0.8rem;
+   
+}
+
+.map{
+    display:none;
 }
 
   }
@@ -474,6 +535,16 @@ html{
     .about-us-right {
         font-size:3vw;
     }
+  
+    .contact-info-top{
+        width:80%;
+        margin-top:4%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        font-size: 5vw;
+    }
+
 
     .footer-nav {
         display:none;}
@@ -679,6 +750,7 @@ footer{
 .contact-us{
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content:center;
 }
 
@@ -706,12 +778,12 @@ footer{
     flex-direction:column;
     background-color:#1BACC6;
     color:white;
-    height: 100%;
-    width:30%;
+    /* height: 100%;
+    width:30%; */
 }
 
 .contact-us-right{
-    width:60%;
+    /* width:60%; */
     background-color:white;
     color:#1BACC6;
 }
@@ -725,14 +797,14 @@ form{
     display:flex;
     flex-direction:column;
 }
-
+/* 
 input[type=text], input[type=tel], input[type=email], [type=submit]{
     width:30%;
     margin: 10px 0 10px 0;
     padding: 12px 20px;
     font-size: 1rem;
    
-}
+} */
 .textbox{
     margin: 0 20px 0px 20px;
     display:flex;
@@ -777,14 +849,14 @@ textarea{
     margin:20px;
 }
 
-.contact-info-top{
+/* .contact-info-top{
     width:80%;
     margin:40px 20px 20px 20px;
     display:flex;
     flex-direction:column;
     align-items:center;
     font-size:1.2rem;
-}
+} */
 
 iframe{
     margin:20px;
@@ -792,10 +864,11 @@ iframe{
 
 .form-row{
     margin: 10px 20px 0px 20px;
-    display:flex;
+    /* display:flex;
+    flex-direction: wrap;
     flex-direction: row;
     justify-content:space-between;
-    align-items:center;
+    align-items:center; */
 }
 
 .form-row label{
@@ -805,6 +878,7 @@ iframe{
 .form-checks{
     margin-left:20px;
     margin-top:10px;
+    margin-right:5%;
     display:block;
     flex-direction: column;
 
