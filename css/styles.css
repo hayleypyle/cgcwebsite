@@ -143,6 +143,14 @@ html{
        
     }
 
+    .services-box h2 {
+        font-size:40px;
+    }
+    
+    .services-box li{
+        font-size:30px;
+    }
+
     .footer-info p{
         display:flex;
         flex-direction:row;
@@ -192,6 +200,14 @@ html{
         font-size:20px;
     
        
+    }
+
+    .services-box h2 {
+        font-size:40px;
+    }
+    
+    .services-box li{
+        font-size:16px;
     }
   }
   
@@ -474,7 +490,7 @@ h1{
 }
 
 .frontpage-banner p{
-    margin:1% 100px;
+    margin:1% 5%;
     font-size:2vw;
 }
 
@@ -759,7 +775,7 @@ iframe{
 }
 
 .services-box{
-    height:70%;
+    height:300px;
     width:500px;
     background-color:#1BACC6;
     color:#f3eff1;
@@ -771,13 +787,13 @@ iframe{
 
 }
 
-.services-box h2 {
+/* .services-box h2 {
     font-size:40px;
 }
 
 .services-box li{
-    font-size:26px;
-}
+    font-size:16px;
+} */
 
 
 ul{
