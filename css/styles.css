@@ -47,7 +47,7 @@ html{
    }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: white;
+    /* background-color: white; */
     overflow: hidden;
     display:flex;
     justify-content:space-between;
