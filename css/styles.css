@@ -47,7 +47,8 @@ html{
    }
 /* Add a black background color to the top navigation */
 .topnav {
-    /* background-color: white; */
+    background-color: white;
+    width:100%;
     overflow: hidden;
     display:flex;
     justify-content:space-between;
@@ -502,7 +503,7 @@ input[type=submit]{
     }
 
     h1{
-        font-size:7vw;
+        font-size:6vw;
     }
 
     .frontpage-container1 img {
