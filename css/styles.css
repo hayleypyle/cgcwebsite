@@ -133,11 +133,15 @@ html{
   @media screen and (min-width: 1001px) {
     .welcome-container h2{
 
-        font-size:4vw;
+        font-size:3vw;
     
     }
     .main-banner{
         text-align: center;
+    }
+
+    h1{
+        font-size:4vw;
     }
 
     .welcome-container p{
@@ -176,11 +180,17 @@ html{
         margin: 0 5% 30px 5%;
     }
 
+    .about-us-left{
+  align-items: center;
+  margin:0 5%;
+
+    }
+
 
 .about-us-left img{
     width:100%;
     height:auto;
-    max-width:18vw;
+    /* max-width:18vw; */
 }
 
     .about-us-container2{
@@ -287,7 +297,6 @@ input[type=text], input[type=tel], input[type=email], [type=submit]{
     }
 
     .welcome-container h2{
-    
         font-size:26px;
     
     }
@@ -394,8 +403,15 @@ input[type=submit]{
     font-size: 0.8rem;
 }
 
+.about-us-left{
+  align-items: center;
+  max-height:auto;
+
+}
+
 .about-us-left .map{
-    width:100%;
+    width:100vw;
+    height:auto;
 }
 
 
@@ -976,16 +992,21 @@ iframe{
     align-items:center;
     font-size:2rem;
 } */
-
+/* 
 .about-us-left{
     margin: 5%;
-}
+} */
 /* 
 .about-us-left img{
     width:100%;
     height:auto;
     max-width:18vw;
 } */
+
+.map{
+    height:100%;
+    width:auto;
+}
 
 .about-us-right{
     margin: 5% 5% 5% 0;
