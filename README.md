@@ -13,4 +13,4 @@ This is a website for Clinton Glass Company in Knoxville Tennessee.
     - A captcha for the contact us form.
 
 # Website Link
-https://hayleypyle.github.io/cgcwebsite/
+https://www.cgc.hayleypyle.com
